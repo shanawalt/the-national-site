@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Homepage</title>
+  <title>The National</title>
   <link rel="stylesheet" href="./assets/stylesheets/the-national-styles.css"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"/>
-  <!-- Commenting out the Bootstrap for now to practice CSS and HTML only.
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </head>
-<body>
-<!-- Commenting out Bootstrap fluid containter to practice CSS/HTML.
+<body id=background>
+<!-- Commenting out Bootstrap fluid containter for now.
 <div class="container-fluid">
   <h1>My First Bootstrap Page</h1>
   <p>This is some text.</p>
 </div> -->
-  <h1>Index</h1>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">The National</a>
+      </div>
 
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#discography">Discography</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#merch">Merch</a></li>
+          <li><a href="#tourdates">Tour Dates</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
