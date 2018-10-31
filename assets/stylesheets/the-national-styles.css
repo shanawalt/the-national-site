@@ -22,7 +22,18 @@ body, html {
 }
 
 h1 {
-  padding: 40px 85px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 5px;
+  text-align: center;
+}
+
+h3 {
+  padding-bottom: 20px;
   text-align: center;
 }
 
@@ -58,5 +69,24 @@ table.center {
   list-style-type: none;
   /* text-align: center; */
   margin: 0;
-  padding:0;
+  padding: 0;
+}
+
+.album img {
+    margin: auto;
+    display: block;
+}
+
+.album-title, .album-date {
+  text-align: center;
+}
+
+.album-tracks {
+  margin: auto;
+  display: block;
+}
+
+iframe {
+  margin: auto;
+  display: block;
 }
