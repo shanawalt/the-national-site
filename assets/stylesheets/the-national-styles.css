@@ -9,11 +9,25 @@ background-size: cover;
 body {
   font-family: 'Lato', sans-serif;
   padding-top: 50px;
+  padding-bottom: 200px;
   }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+body, html {
+    height: 100%;
+}
+
+h1 {
+  padding: 40px 85px;
+  text-align: center;
+}
+
+nav {
+    text-transform: uppercase;
 }
 
 th {
@@ -27,20 +41,22 @@ td {
     text-align: left;
 }
 
-body, html {
-    height: 100%;
-}
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+  }
 
-h1 {
-  padding: 40px 85px;
-}
 
 .table {
   padding-left: 75px;
   padding-right: 75px;
   padding-bottom: 100px;
+  width: 100%
 }
 
-nav {
-    text-transform: uppercase;
+.list {
+  list-style-type: none;
+  /* text-align: center; */
+  margin: 0;
+  padding:0;
 }
