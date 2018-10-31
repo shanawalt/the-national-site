@@ -16,11 +16,31 @@ img {
     height: auto;
 }
 
-th, td {
-    padding: 10px;
-    text-align: center;
+th {
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+td {
+    padding: 5px 15px;
+    text-align: left;
 }
 
 body, html {
     height: 100%;
+}
+
+h1 {
+  padding: 40px 85px;
+}
+
+.table {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 100px;
+}
+
+nav {
+    text-transform: uppercase;
 }
