@@ -24,18 +24,19 @@ body, html {
 h1 {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 100px;
   text-align: left;
 }
 
 h2 {
-  /* padding-top: 5px;
-  padding-bottom: 5px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
   /* text-align: center; */
 }
 
 h3 {
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
@@ -91,5 +92,17 @@ table.center {
 .container-fluid {
   margin-left: 75px;
   margin-right: 75px;
+  margin-bottom: 100px;
+}
+
+#videos {
+  padding-left: 0px;
+}
+
+#photos {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-bottom: 100px;
 }
