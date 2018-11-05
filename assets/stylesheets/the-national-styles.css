@@ -106,3 +106,7 @@ td {
   margin-right: 0px;
   margin-bottom: 100px;
 }
+
+#merch:hover {
+  background-color: blue;
+}
