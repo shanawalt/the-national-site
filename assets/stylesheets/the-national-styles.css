@@ -108,5 +108,51 @@ td {
 }
 
 #merch:hover {
-  background-color: blue;
+  background-color: #1BB3F5;
+}
+
+#myBtnContainer{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.container-fluid {
+  overflow: hidden;
+}
+
+.filterDiv {
+  float: left;
+  color: #ffffff;
+  width: 300px;
+  line-height: 300px;
+  text-align: center;
+  margin: 2px;
+  display: none; /* Hidden by default */
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+border: none;
+outline: none;
+padding: 12px 16px;
+background-color: #f1f1f1;
+cursor: pointer;
+}
+
+.btn:hover {
+background-color: #ddd;
+}
+
+.btn.active {
+background-color: #666;
+color: white;
+}
+
+.filterDiv img {
+width: 100%;
+height: auto;
+display: block;
 }
